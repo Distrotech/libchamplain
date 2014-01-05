@@ -1,0 +1,11 @@
+prefix=
+exec_prefix=
+abs_top_srcdir=/usr/src/svngit/libchamplain
+abs_top_builddir=/usr/src/svngit/libchamplain
+
+Name: libchamplain-memphis (uninstalled copy)
+Description: libmemphis support for libchamplain
+Version: 0.12.5
+Libs: ${abs_top_builddir}/champlain/libchamplain-0.12.la
+Cflags: -I${abs_top_srcdir} -I${abs_top_builddir}
+Requires: champlain-0.12-uninstalled memphis-0.2

@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libchamplain-memphis
+Description: libmemphis support for libchamplain
+Version: 0.12.5
+Libs: -L${libdir} -lchamplain-0.12
+Cflags: -I${includedir}/libchamplain-0.12
+Requires: champlain-0.12 memphis-0.2
